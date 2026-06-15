@@ -1,0 +1,67 @@
+{
+    "personal-information": {
+        "first-name": "",
+        "last-name": "",
+        "preferred-first-name": "",
+        "phone": "",
+        "ext": "",
+        "email": "",
+        "country": "",
+        "state/province": "",
+        "city": "",
+        "address": "",
+        "adress-line-2": "",
+        "zip/postal-code": ""
+    },
+    "experience": [
+        {
+            "company-name": "",
+            "title": "",
+            "description": "",
+            "country": "",
+            "state/province": "",
+            "city": "",
+            "start-date": "",
+            "end-date": ""
+        },
+        {
+            "company-name": "",
+            "title": "",
+            "description": "",
+            "country": "",
+            "state/province": "",
+            "city": "",
+            "start-date": "",
+            "end-date": ""
+        },
+        {
+            "company-name": "",
+            "title": "",
+            "description": "",
+            "country": "",
+            "state/province": "",
+            "city": "",
+            "start-date": "",
+            "end-date": ""
+        }
+    ],
+    "education": [
+        {
+            "institution": "",
+            "degree": "",
+            "major": "",
+            "country": "",
+            "state/province": "",
+            "city": "",
+            "graduated": ""
+        }
+    ],
+    "skils": [
+        "1",
+        "2",
+        "3"
+    ],
+    "languages": [
+        "English"
+    ]
+}
