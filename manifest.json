@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Resume Tool",
-  "version": "1.0.0",
-  "description": "Auto-fill Workday and Lever job applications from saved resume profiles.",
+  "version": "1.1.0",
+  "description": "Auto-fill job applications from saved resume profiles. Works on Workday, Lever, Greenhouse, UltiPro, SuccessFactors, and more.",
   "permissions": [
     "storage",
     "activeTab",
@@ -10,27 +10,10 @@
     "tabs"
   ],
   "host_permissions": [
-    "*://*.myworkdayjobs.com/*",
-    "*://*.workday.com/*",
-    "*://jobs.lever.co/*",
-    "*://*.lever.co/*"
+    "<all_urls>"
   ],
   "action": {
     "default_popup": "popup/popup.html",
     "default_title": "Resume Tool"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.myworkdayjobs.com/*",
-        "*://*.workday.com/*",
-        "*://jobs.lever.co/*",
-        "*://*.lever.co/*"
-      ],
-      "js": [
-        "content/filler.js"
-      ],
-      "run_at": "document_idle"
-    }
-  ]
+  }
 }
