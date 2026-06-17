@@ -24,8 +24,8 @@ const PERSONAL_LABELS = [
 // Experience is the main event. Generous patterns to work across portals.
 const EXPERIENCE_LABELS = [
   { key: 'company-name',   patterns: ['company', 'employer', 'organization', 'company name', 'employer name', 'business name', 'company/organization', 'workplace', 'business'] },
+  { key: 'description',    patterns: ['description', 'role description', 'responsibilities', 'duties', 'summary', 'accomplishments', 'what did you do', 'tell us about', 'work description', 'job description', 'details', 'work summary', 'briefly describe'] },
   { key: 'title',          patterns: ['title', 'job title', 'position', 'role', 'designation', 'job role', 'position/title', 'your title', 'position title', 'occupation'] },
-  { key: 'description',    patterns: ['description', 'responsibilities', 'duties', 'summary', 'accomplishments', 'what did you do', 'tell us about', 'work description', 'job description', 'details', 'work summary', 'briefly describe'] },
   { key: 'start-date',     patterns: ['start date', 'from date', 'date from', 'start', 'from', 'began', 'begin', 'employment from', 'start/from', 'date started', 'employment start'] },
   { key: 'end-date',       patterns: ['end date', 'to date', 'date to', 'end', 'through', 'until', 'finish', 'employment to', 'end/to', 'date ended', 'employment end', 'left'] },
   { key: 'city',           patterns: ['city', 'town', 'location city', 'job city', 'work city', 'location'] },

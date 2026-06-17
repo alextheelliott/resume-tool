@@ -1,8 +1,8 @@
 'use strict';
 
 // ── Config ─────────────────────────────────────────────────────────────────────
-const GITHUB_URL = 'https://github.com/alexelliott/resume-tool';
-const AUTHOR_URL = 'https://github.com/alexelliott';
+const GITHUB_URL = 'https://github.com/alextheelliott/resume-tool';
+const AUTHOR_URL = 'https://www.linkedin.com/in/alexjaelliott/';
 
 // ── Storage ────────────────────────────────────────────────────────────────────
 
@@ -326,15 +326,15 @@ document.getElementById('template-btn').addEventListener('click', () => {
       "name": "My Resume"
     },
     "personal-information": {
-      "first-name":           "Alex",
-      "last-name":            "Elliott",
+      "first-name":           "Joe",
+      "last-name":            "Norman",
       "preferred-first-name": "",
       "phone":                "416-555-0100",
       "ext":                  "",
-      "email":                "alex@example.com",
+      "email":                "joe@example.com",
       "country":              "Canada",
       "state/province":       "Ontario",
-      "city":                 "Newmarket",
+      "city":                 "Toronto",
       "address":              "123 Main Street",
       "address-line-2":       "",
       "zip/postal-code":      "L3Y 1A1"
@@ -363,13 +363,13 @@ document.getElementById('template-btn').addEventListener('click', () => {
     ],
     "education": [
       {
-        "institution":    "University of Toronto",
-        "degree":         "Bachelor of Science",
-        "major":          "Computer Science",
+        "institution":    "University of British Columbia",
+        "degree":         "Bachelor of Applied Science",
+        "major":          "Mechanical Engineering",
         "country":        "Canada",
-        "state/province": "Ontario",
-        "city":           "Toronto",
-        "graduated":      "2020"
+        "state/province": "British Columbia",
+        "city":           "Vancouver",
+        "graduated":      "2026"
       }
     ],
     "skills": [
@@ -380,9 +380,9 @@ document.getElementById('template-btn').addEventListener('click', () => {
       "English"
     ],
     "links": {
-      "linkedin":  "https://linkedin.com/in/alexelliott",
-      "github":    "https://github.com/alexelliott",
-      "portfolio": "https://alexelliott.dev",
+      "linkedin":  "https://linkedin.com/in/alexjaelliott",
+      "github":    "https://github.com/alextheelliott",
+      "portfolio": "https://www.alexjelliott.ca/",
       "other":     []
     }
   };

@@ -2,6 +2,10 @@
   "manifest_version": 3,
   "name": "Resume Tool",
   "version": "1.1.0",
+  "icons": {
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
+  },
   "description": "Auto-fill job applications from saved resume profiles. Works on Workday, Lever, Greenhouse, UltiPro, SuccessFactors, and more.",
   "permissions": [
     "storage",
@@ -14,6 +18,10 @@
   ],
   "action": {
     "default_popup": "popup/popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png",
+      "256": "icons/icon256.png"
+    },
     "default_title": "Resume Tool"
   }
 }
